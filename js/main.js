@@ -78,7 +78,7 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/MainBackground.jpg', title : '<div class="slide-content">Joel Nymark</div>', thumb : '', url : ''},
-											{image : 'img/slider-images/MainBackground2.jpg', title : '<div class="slide-content">Curent Project</div>', thumb : '', url : ''}
+											{image : 'img/slider-images/Mainbackground.jpg', title : '<div class="slide-content">Curent Project</div>', thumb : '', url : ''}
 									],
 									
 		// Theme Options			   
