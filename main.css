@@ -1,0 +1,117 @@
+/* Global */
+html
+{
+  min-height: 100%;
+
+}
+body
+{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgba(255,255,255,.75);
+  font-family: 'Anonymous Pro', monospace;  
+  background-color: rgb(25,25,25);  
+}
+.line-1
+{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter
+{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+  blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter
+{
+  from{width: 0;}
+  to{width: 13em;}
+}
+@keyframes blinkTextCursor
+{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.buttons
+{   
+    background-color: #2E2E2E;
+    padding: 1rem;
+}
+
+.buttons button
+{   
+    border: none;
+    outline: none;
+    margin: 5px;
+    padding: 12px 16px;
+    color: #FFB125;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.filterWith
+{
+    background-color: #10be00;
+    color: #FFB125;
+
+}
+
+.filterWithout
+{
+    background-color: #850000;
+    color: #FFB125;
+}
+
+.filterNeutral
+{
+    background-color: #444444;
+}
+
+.box
+{
+    background-color: #2E2E2E;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    margin: 0.5rem 0px;
+    line-height: 2rem;
+    
+}
+.box :nth-child(2)
+{
+    text-align: right;
+}
+.product
+{
+    width: 100px;
+    font-size: 20px;
+}
+
+.price
+{
+    position: relative;
+    float: right;
+    top: 0px;
+    font-size: 20px;
+}
+
+.ingredients
+{
+    color: darkgray;
+    font-size: 16px;
+}
+
+.show
+{
+    display: block;
+}
