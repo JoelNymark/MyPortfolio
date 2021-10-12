@@ -1,153 +1,162 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+   <head>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="main.css">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
       <title>Joel Nymark</title>
-    </head>
-    <body>
+   </head>
+   <body class="p-0">
       <nav class="navbar fixed-top justify-content-center navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid" style="color: black;">
-        <a class="navbar-brand" href="#" >Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#AboutMe">About Me</a>
-            <a class="nav-link" href="#experience">Work experience</a>
-            <a class="nav-link" href="#portfolio" tabindex="-1">My Work</a>
-          </div>
-        </div>
+         <div class="container-fluid" style="color: black;">
+            <a class="navbar-brand" href="#" >Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav">
+                  <a class="nav-link" href="#AboutMe">About Me</a>
+                  <a class="nav-link" href="#experience">Work Experience</a>
+                  <a class="nav-link" href="#portfolio" tabindex="-1">My Work</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <div class="carousel slide p-0">
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <img src="img/MainBackground.jpg" class="img-fluid" alt="...">
+               <div class="carousel-caption d-none d-md-block fs-1 text-center" style="bottom: 40%;">
+                  <p class="line-1 anim-typewriter">My name is Joel Nymark</p>
+               </div>
+            </div>
+         </div>
       </div>
-    </nav>
-    
-    <div class="col-md-12">
-      <img src="img/MainBackground.jpg" class="img-fluid" alt="...">
-      <div class="carousel-caption d-none d-md-block fs-1 fw-bold text-center" style="bottom: 40%;">
-        <p class="line-1 anim-typewriter">My name is joel nymark</p>
+      <div class="container p-5 my-5 bg-dark text-dark"" id="AboutMe">
+         <div class="row">
+            <div class="card md-6">
+               <div class="row g-0">
+                  <div class="col-md-6">
+                     <img src="img/sKULLE.jpg" class="img-fluid rounded-start mt-2" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                     <div class="card-body">
+                        <h1 class="card-title">Joel Nymark</h1>
+                        <p class="card-text"> Hi, my name is Joel and I am currently studying to become a Software Developer at NTI Uppsala. I am currently in my 4th year of high school to become a high school engineer.</p>
+                        <p class="card-text"> </p>
+                        <h4 class="card-text"><i class="devicon-github-original"></i><a href="https://github.com/JoelNymark" class = "text-warning text-decoration-none" target="_blank"> GitHub</a></h4>
+                        <p class="card-text"> </p>
+                        <h4 class="card-text"><i class="devicon-linkedin-plain"></i><a href="https://www.linkedin.com/in/joel-nymark-54b8a9222/" class = "text-warning text-decoration-none" target="_blank"> LinkedIn</a></h4>
+                     </div>
+                  </div>
+                  <!--Bottom text-->
+                  <div class="col-md-6">
+                     <div class="card-body">
+                        <h5 class="card-text font-weight-bold">I am knowledgeable in : </h5>
+                        <p class="card-text"><i class="devicon-html5-plain"></i> HTML5</p>
+                        <p class="card-text"><i class="devicon-css3-plain"></i> CSS3</p>
+                        <p class="card-text"><i class="devicon-javascript-plain"></i> JavaScript</p>
+                        <p class="card-text"><i class="devicon-csharp-plain"></i> C#</p>
+                        <p class="card-text"><i class="devicon-cplusplus-plain"></i> C++</p>
+                        <p class="card-text"><i class="devicon-python-plain"></i> Python</p>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="card-body">
+                        <h5 class="card-text"> Softwares I know : </h5>
+                        <p class="card-text"><i class="devicon-vscode-plain"></i> VS Code</p>
+                        <p class="card-text"><i class="devicon-unity-original"></i> Unity</p>
+                        <p class="card-text"><i class="devicon-visualstudio-plain"></i> Visual Studio</p>
+                        <p class="card-text"><i class="devicon-arduino-plain"></i> Arduino</p>
+                     </div>
+                  </div>
+                  <!--Bottom text-->
+               </div>
+            </div>
+         </div>
+         <div class="container p-3 my-12 bg-dark text-dark"" id="experience"></div>
+         <div class="row">
+            <div class="card md-12">
+               <div class="row">
+                  <div class="col-md-12">
+                     <h2 class="card-title text-center">Work Experience</h2>
+                  </div>
+                  <!--Bottom text-->
+                  <div class="col-md-12">
+                     <div class="card-body">
+                        <p class="card-text">My work experience consists of working at my uncle's workshop, I have also had an internship at <a href="https://www.ligandtracer.com/" target="_blank">Ridgeview Industries</a> where I programmed an application that takes the data from a machine that collects data from led lights.</p>
+                        <p class="card-text"></p>
+                     </div>
+                  </div>
+                  <!--Bottom text-->
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-    
-    <div class="container p-5 my-5 bg-dark text-dark"" id="AboutMe">
-      <div class="row">
-        <div class="card md-6">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="img/sKULLE.jpg" class="img-fluid rounded-start mt-2" alt="...">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h1 class="card-title">Joel Nymark</h1>
-                <h5 class="card-title">About Me!</h5>
-                <p class="card-text"> Hi, My name is Joel and I am currently studying to become a Software Developer at NTI Uppsala. I am currently in my 4th year in gymnasium to become Gymnasium Ingejör.</p>
-              </div>
-            </div>
-            <!--Bottom text-->
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-text font-weight-bold">Im knowledgeable in : </h5>
-                <p class="card-text"><i class="devicon-html5-plain"></i> HTML</p>
-                <p class="card-text"><i class="devicon-css3-plain"></i> Css</p>
-                <p class="card-text"><i class="devicon-javascript-plain"></i> Javascript</p>
-                <p class="card-text"><i class="devicon-csharp-plain"></i> C#</p>
-                <p class="card-text"><i class="devicon-cplusplus-plain"></i> C++</p>
-                <p class="card-text"><i class="devicon-python-plain"></i> Python</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-text"> Softwares i know : </h5>
-                <p class="card-text"><i class="devicon-vscode-plain"></i> VS Code</p>
-                <p class="card-text"><i class="devicon-unity-original"></i> Unity</p>
-                <p class="card-text"><i class="devicon-visualstudio-plain"></i> Visual Studio</p>
-                <p class="card-text"><i class="devicon-arduino-plain"></i> Arduino</p>
-              </div>
-            </div>
-            <!--Bottom text-->
-          </div>
-        </div>
-      </div>
-
-      <div class="container p-5 my-12 bg-dark text-dark"" id="experience"></div>
-        <div class="row">
-          <div class="card md-12">
-            <div class="row">
-              <div class="col-md-12">
-                <h2 class="card-title text-center">Work Experience</h2>
-              </div>
-              <!--Bottom text-->
-              <div class="col-md-12">
-                <div class="card-body">
-                  <p class="card-text">My work experience consist of woring at my unculs workshop , i alos have internship at <a href="https://www.ligandtracer.com/" target="_blank">ridgeview industrys</a> where i prograde a application that takes the date from a machine that colects data from led ligts.</p>
-                  <p class="card-text"></p>
-                </div>
-              </div>
-              <!--Bottom text-->
-            </div>
-          </div>
-        </div>
-    </div>
-  <!-- Portfolio Area -->
-  <section id="portfolio" class="portfolio-area">
-    <div class="container-fluid  p-5 my-5 bg-dark text-dark"">
-      <h2>My work</h2>
-      <p>Here's wome work i have done</p>
-
+      <!-- Portfolio Area -->
+      <section id="portfolio" class="portfolio-area">
+         <div class="container-fluid  pt-5 my-5 bg-dark text-light text-center">
+            <h2>My work</h2>
             <!--========Spacer========-->
-            <div class="card-group">
-                <div class="box card">
+            <div class="card-group item-center col-md-8 offset-2   ">
+               <div class="box card col-md-4 text-dark">
                   <img src="img/sKULLE.jpg" class="card-img-top" alt="...">
                   <div class="card-body bg-light">
-                    <h5 class="card-title">Art work i have made.</h5>
-                    <p class="card-text">Art</p>
-                    <p class="card-text"><small class="text-muted">updated</small></p>
+                     <h5 class="card-title">Art.</h5>
+                     <p class="card-text">Art</p>
+                     <!-- <p class="card-text"><small class="text-muted">updated</small></p> -->
                   </div>
-                </div>
-                <div class=" box card">
+               </div>
+               <div class=" box card col-md-4 text-dark">
                   <img src="img/dog-good.jpg" class="card-img-top" alt="...">
                   <div class="card-body bg-light">
-                    <h5 class="card-title">My dog</h5>
-                    <p class="card-text">Heres a picture of my dog.</p>
-                    <p class="card-text"><small class="text-muted">updated</small></p>
+                     <h5 class="card-title">My dog</h5>
+                     <p class="card-text">Here's a picture of my dog.</p>
+                     <!-- <p class="card-text"><small class="text-muted">updated</small></p> -->
                   </div>
-                </div>
-                <div class="box card">
+               </div>
+               <div class="box card col-md-4 text-dark">
                   <img src="img/sKULLE-R.jpg" class="card-img-top" alt="...">
                   <div class="card-body bg-light">
-                    <h5 class="card-title ">Art</h5>
-                    <p class="card-text">Art</p>
-                    <p class="card-text"><small class="text-muted"> updated</small></p>
+                     <h5 class="card-title ">Art</h5>
+                     <p class="card-text">Art</p>
+                     <!-- <p class="card-text"><small class="text-muted"> updated</small></p> -->
                   </div>
-                </div>
-              </div>
-              <div class="card">
-                <img src="img/firstWebsite.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Art</h5>
-                  <p class="card-text">Art</p>
-                    <p class="card-text"><small class="text-muted">updated</small></p>
-                  </div>
-                </div>
-                <div class="card">
-                  <img src="img/pizzawebsite.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">My dog</h5>
-                    <p class="card-text">Heres a picture of my dog.</p>
-                    <p class="card-text"><small class="text-muted">updated</small></p>
-                  </div>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-        </div><!-- container -->
-      </div>
-  </section><!-- portfolio -->
-  <script src="main.js"></script>
-</body>
+            <div class="card-group pt-5 pb-5 col-md-8 offset-2">
+               <div class="box card col-md-4 text-dark">
+                  <img src="img/firstWebsite.png" class="card-img-top" alt="...">
+                  <div class="card-body bg-light">
+                     <h5 class="card-title">My website</h5>
+                     <p class="card-text">Here's the first website I made in my first year of Gymnasium</p>
+                     <!-- <p class="card-text"><small class="text-muted">updated</small></p> -->
+                  </div>
+               </div>
+               <div class="box card col-md-4 text-dark">
+                  <img src="img/pizzawebsite.png" class="card-img-top" alt="...">
+                  <div class="card-body bg-light">
+                     <h5 class="card-title">Website</h5>
+                     <p class="card-text">Here's a website a made in the first few weeks of my 4th year of gymnasium</p>
+                     <!-- <p class="card-text"><small class="text-muted">updated</small></p> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Copyright -->
+         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="text-white" href="https://www.linkedin.com/in/joel-nymark-54b8a9222/">Joel Nymark</a>
+         </div>
+         <!-- Copyright -->
+         </footer>
+         <!-- Footer -->
+      </section>
+      <!-- portfolio -->
+      <script src="main.js"></script>
+   </body>
 </html>
