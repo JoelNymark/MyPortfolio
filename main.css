@@ -115,3 +115,14 @@ body
 {
     display: block;
 }
+
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+<a href="#" class="text-underline-hover">Link</a>
