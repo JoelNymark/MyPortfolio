@@ -43,78 +43,7 @@ body
   to{border-right-color: transparent;}
 }
 
-.buttons
-{   
-    background-color: #2E2E2E;
-    padding: 1rem;
-}
 
-.buttons button
-{   
-    border: none;
-    outline: none;
-    margin: 5px;
-    padding: 12px 16px;
-    color: #FFB125;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.filterWith
-{
-    background-color: #10be00;
-    color: #FFB125;
-
-}
-
-.filterWithout
-{
-    background-color: #850000;
-    color: #FFB125;
-}
-
-.filterNeutral
-{
-    background-color: #444444;
-}
-
-.box
-{
-    background-color: #2E2E2E;
-    width: calc(100% - 2rem);
-    padding: 1rem;
-    margin: 0.5rem 0px;
-    line-height: 2rem;
-    
-}
-.box :nth-child(2)
-{
-    text-align: right;
-}
-.product
-{
-    width: 100px;
-    font-size: 20px;
-}
-
-.price
-{
-    position: relative;
-    float: right;
-    top: 0px;
-    font-size: 20px;
-}
-
-.ingredients
-{
-    color: darkgray;
-    font-size: 16px;
-}
-
-.show
-{
-    display: block;
-}
 
 
 .text-underline-hover {
@@ -125,4 +54,9 @@ body
     text-decoration: underline;
 }
 
-<a href="#" class="text-underline-hover">Link</a>
+.text-color-linkedin {
+    color: #0077b5;
+}
+.text-color-github {
+    color: #171515;
+}
