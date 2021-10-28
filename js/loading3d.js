@@ -1,4 +1,4 @@
-import { GLFTLoader } from '/js/GLTFLoader.js';
+import { GLFTLoader } from 'GLTFLoader.js';
 
 const loader = new GLFTLoader();
 
