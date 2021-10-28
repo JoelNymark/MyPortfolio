@@ -1,4 +1,4 @@
-import { GLFTLoader } from '/js/GLTFLoader';
+import { GLFTLoader } from '/js/GLTFLoader.js';
 
 //move build to js folder!!!!
 
