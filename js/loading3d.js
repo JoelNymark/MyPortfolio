@@ -11,7 +11,7 @@ function main() {
   const near = 0.1;
   const far = 100;
   const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
-  camera.position.set(0, 30, 30);
+  camera.position.set(0, 10, 20);
 
   const controls = new OrbitControls(camera, canvas);
   controls.target.set(0, 5, 0);
