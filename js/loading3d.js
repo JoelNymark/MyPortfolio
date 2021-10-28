@@ -86,7 +86,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('https://threejsfundamentals.org/threejs/resources/models/cartoon_lowpoly_small_city_free_pack/scene.gltf', (gltf) => {
+    gltfLoader.load('../_models/truckhockV8.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
