@@ -67,7 +67,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('../_models/truckhockV8.gltf', (gltf) => {
+    gltfLoader.load('./_models/truckhockV8.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
