@@ -1,5 +1,7 @@
 import { GLFTLoader } from '/js/GLTFLoader';
 
+//move build to js folder!!!!
+
 const loader = new GLFTLoader();
 
 
