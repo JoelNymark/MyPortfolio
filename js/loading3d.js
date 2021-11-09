@@ -18,7 +18,8 @@ function main() {
   controls.update();
 
   const scene = new THREE.Scene();
-  scene.background = new THREE.Color('gray');
+  scene.background = new THREE.Color('lightblue');
+
 
   {
     const skyColor = 0xB1E1FF;  // light blue
@@ -65,7 +66,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('../_models/scene.gltf', (gltf) => {
+    gltfLoader.load('./_models/scene.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
