@@ -25,7 +25,7 @@ var scene = new THREE.Scene();
 
     var mesh3;
 
-    loader2.load( './_models/truckhockV8.glb', function ( gltf ) {
+    loader2.load( './models/truckhockV8.glb', function ( gltf ) {
         console.log(gltf);
         mesh3 = gltf.scene;
         console.log(mesh3.children[0]);

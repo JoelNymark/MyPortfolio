@@ -66,7 +66,7 @@ function main() {
 
   {
     const gltfLoader = new GLTFLoader();
-    gltfLoader.load('./_models/scene.gltf', (gltf) => {
+    gltfLoader.load('./models/scene.gltf', (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
