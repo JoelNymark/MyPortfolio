@@ -1,0 +1,124 @@
+@import "compass/css3";
+body{
+    background-color: #2a3a49;
+    padding: 0;
+    margin: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.container, .menu{
+    height: 140px;
+    width: 160px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    
+}
+.menu{
+    transform: scale(0.9);
+}
+
+.toggle{
+    z-index: +1;
+    height: 0;
+    width: 80px;
+    border-bottom: 70px solid #f9d230;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: absolute;
+    top:0;
+}
+.toggle:before{
+    content: '';
+    height: 0;
+    width: 80px;
+    border-top: 70px solid #f9d230;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: absolute;
+    top:70px;
+    left: -40px;
+}
+
+.item{
+    height: 0;
+    width: 80px;
+    border-bottom: 70px solid white;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: absolute;
+    top:0;
+    transition: 1s;
+}
+.item:before{
+    content: '';
+    height: 0;
+    width: 80px;
+    border-top: 70px solid white;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    position: absolute;
+    top:70px;
+    left: -40px;
+}
+
+#add{
+    font-size: 100px;
+    color: white;
+    position: relative;
+    top:20px;
+    right: 10px;
+    transition: 1s;
+}
+
+a>.material-icons{
+    color: #d2d2d2;
+    font-size: 60px;
+
+}
+a{
+    position: relative;
+    top:40px;
+    left: 10px;
+}
+a:hover{
+    transform: scale(1.2);
+}
+
+a>.material-icons:hover{
+    color: #f9d230;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.test{
+    width: 250px;
+    height: 70px;
+    background-color: #f9d230;
+    margin: 10px 0 0 120px;
+
+    animation: 1s ease 0s 1 slideInFromLeft;
+    transform: skewX(-30deg);
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
