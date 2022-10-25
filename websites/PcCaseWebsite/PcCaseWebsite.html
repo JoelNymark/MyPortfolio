@@ -11,9 +11,10 @@
     <body>
         <model-viewer id="color" alt="pc case" src="../../js/models/pcCase/New case.gltf" poster="img/Mudguard.PNG" shadow-intensity="5" camera-controls>
             <div class="controls" ,="" id="color-controls">
-                <button data-color="0.4,0,.3,0.4">Red</button>
+                <button data-color="0.1,0,.0,0.1">Red</button>
                 <button data-color="0,0.1,0,0.1">Green</button>
                 <button data-color="0,0,0.4,0.4">Blue</button>
+                <button onclick="usedefault()" data-color="0.7294, 0.5333, 0.0392">Default</button>
                 <div class="controls">
                     <div>
                       <p>Metalness: <span id="metalness-value"></span></p>
@@ -49,6 +50,15 @@
 
 
             const modelViewerParameters = document.querySelector("model-viewer#color");
+
+            function usedefault(){
+              let material = modelViewerParameters.model.materials[0];
+
+              console.log("default usedefault")
+              material.pbrMetallicRoughness.setBaseColorFactor([0.7294, 0.5333, 0.0392]);
+              material.pbrMetallicRoughness.setMetallicFactor(1)
+              material.pbrMetallicRoughness.setRoughnessFactor([0.5, 0.5, 0.5]);
+            }
 
             modelViewerParameters.addEventListener("load", (ev) => {
 
